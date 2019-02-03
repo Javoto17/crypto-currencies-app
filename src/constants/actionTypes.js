@@ -1,0 +1,4 @@
+export const GET_CURRENCIES = 'crypto/GET_CURRENCIES';
+export const GET_CURRENCIES_SUCCESS = 'crypto/GET_CURRENCIES_SUCCESS';
+export const GET_CURRENCIES_ERROR = 'crypto/GET_CURRENCIES_ERROR';
+

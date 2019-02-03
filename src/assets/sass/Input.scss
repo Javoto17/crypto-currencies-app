@@ -1,0 +1,14 @@
+.custom-input {
+  box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);
+  border-color: #fff;
+  outline: unset;
+  &:hover {
+    border-color: #fff;
+  }
+  &:focus {
+    border-color: #fff;
+  }
+  &:active {
+    border-color: #fff;
+  }
+}
