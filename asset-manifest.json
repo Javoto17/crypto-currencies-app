@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.237f3c2f.chunk.css",
-  "main.js": "/static/js/main.13e233e4.chunk.js",
-  "main.js.map": "/static/js/main.13e233e4.chunk.js.map",
-  "static/js/1.11dfede4.chunk.js": "/static/js/1.11dfede4.chunk.js",
-  "static/js/1.11dfede4.chunk.js.map": "/static/js/1.11dfede4.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/index.scss": "/static/media/AvertaDemoPE-Regular.a24a4f27.woff2",
-  "static/media/Home.scss": "/static/media/background-home.efff21c0.png",
-  "static/css/main.237f3c2f.chunk.css.map": "/static/css/main.237f3c2f.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.9f06ef988681967a5daac9ff2f0985c2.js": "/precache-manifest.9f06ef988681967a5daac9ff2f0985c2.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/crypto-currencies-app/static/css/main.399ac741.chunk.css",
+  "main.js": "/crypto-currencies-app/static/js/main.c1b4bfb1.chunk.js",
+  "main.js.map": "/crypto-currencies-app/static/js/main.c1b4bfb1.chunk.js.map",
+  "static/js/1.11dfede4.chunk.js": "/crypto-currencies-app/static/js/1.11dfede4.chunk.js",
+  "static/js/1.11dfede4.chunk.js.map": "/crypto-currencies-app/static/js/1.11dfede4.chunk.js.map",
+  "runtime~main.js": "/crypto-currencies-app/static/js/runtime~main.2c86df5a.js",
+  "runtime~main.js.map": "/crypto-currencies-app/static/js/runtime~main.2c86df5a.js.map",
+  "static/media/index.scss": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.48fa4dc9.woff",
+  "static/media/Home.scss": "/crypto-currencies-app/static/media/background-home.efff21c0.png",
+  "static/css/main.399ac741.chunk.css.map": "/crypto-currencies-app/static/css/main.399ac741.chunk.css.map",
+  "index.html": "/crypto-currencies-app/index.html",
+  "precache-manifest.40a3394f03380f91a7fe229d4dca88fa.js": "/crypto-currencies-app/precache-manifest.40a3394f03380f91a7fe229d4dca88fa.js",
+  "service-worker.js": "/crypto-currencies-app/service-worker.js"
 }
