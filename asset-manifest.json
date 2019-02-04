@@ -1,15 +1,15 @@
 {
-  "main.css": "/crypto-currencies-app/static/css/main.399ac741.chunk.css",
-  "main.js": "/crypto-currencies-app/static/js/main.46f3775c.chunk.js",
-  "main.js.map": "/crypto-currencies-app/static/js/main.46f3775c.chunk.js.map",
+  "main.css": "/crypto-currencies-app/static/css/main.32548103.chunk.css",
+  "main.js": "/crypto-currencies-app/static/js/main.f93888e1.chunk.js",
+  "main.js.map": "/crypto-currencies-app/static/js/main.f93888e1.chunk.js.map",
   "static/js/1.11dfede4.chunk.js": "/crypto-currencies-app/static/js/1.11dfede4.chunk.js",
   "static/js/1.11dfede4.chunk.js.map": "/crypto-currencies-app/static/js/1.11dfede4.chunk.js.map",
   "runtime~main.js": "/crypto-currencies-app/static/js/runtime~main.2c86df5a.js",
   "runtime~main.js.map": "/crypto-currencies-app/static/js/runtime~main.2c86df5a.js.map",
-  "static/media/index.scss": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.48fa4dc9.woff",
-  "static/media/Home.scss": "/crypto-currencies-app/static/media/background-home.efff21c0.png",
-  "static/css/main.399ac741.chunk.css.map": "/crypto-currencies-app/static/css/main.399ac741.chunk.css.map",
+  "static/media/index.scss": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.a24a4f27.woff2",
+  "static/media/Home.scss": "/crypto-currencies-app/static/media/background-home.6121fa2f.png",
+  "static/css/main.32548103.chunk.css.map": "/crypto-currencies-app/static/css/main.32548103.chunk.css.map",
   "index.html": "/crypto-currencies-app/index.html",
-  "precache-manifest.a5002e9e9baba322015e0623c845760c.js": "/crypto-currencies-app/precache-manifest.a5002e9e9baba322015e0623c845760c.js",
+  "precache-manifest.d53f38de35bcbe0b8da1d226fdf5f4f9.js": "/crypto-currencies-app/precache-manifest.d53f38de35bcbe0b8da1d226fdf5f4f9.js",
   "service-worker.js": "/crypto-currencies-app/service-worker.js"
 }
