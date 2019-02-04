@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './Home.scss';
 
 import Nav from '../../components/Nav/Nav';
+import CryptoCard from '../../components/CryptoCard/CryptoCard';
+
 
 class Home extends Component {
 
@@ -11,12 +13,28 @@ class Home extends Component {
     getCurrencies();
   }
 
-
-  render() {
+  renderCrypto = () => {
     const { currencies } = this.props;
 
-    console.log(currencies);
+    if (!currencies) {
+      return null;
+    }
 
+    return currencies.map(el => {
+      let imgSrc = null;
+
+      try {
+        imgSrc = require(`../../../node_modules/cryptocurrency-icons/32/icon/${el.symbol.toLowerCase()}.png`);
+      }
+      catch (err) {
+        imgSrc = null;
+      }
+
+      return (<CryptoCard symbol={el.symbol} key={el.symbol} imgSrc={imgSrc} />);
+    });
+  }
+
+  render() {
     return (
       <div className="container-parent">
         <Nav />
@@ -56,6 +74,13 @@ class Home extends Component {
                   <div></div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="hero-body">
+          <div className="container is-fluid">
+            <div className="columns is-multiline is-mobile">
+              {this.renderCrypto()}
             </div>
           </div>
         </div>

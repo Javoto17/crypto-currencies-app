@@ -14,7 +14,7 @@ import * as t from '../constants/actionTypes';
 export function* getCurrencies() {
   try {
     const response = yield call(getApi, 'v1/cryptocurrency/listings/latest');
-    yield put(getCurrenciesSuccess(response));
+    yield put(getCurrenciesSuccess(response.data.data));
   } catch (error) {
     yield put(getCurrenciesError(error));
   }
