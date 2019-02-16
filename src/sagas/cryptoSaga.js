@@ -6,14 +6,15 @@ import {
 import {
   getCurrenciesSuccess,
   getCurrenciesError,
-  getApi
+  getCurrencyList
 } from '../actions/cryptoActions';
+
 import * as t from '../constants/actionTypes';
 
 
-export function* getCurrencies() {
+export function* getCurrencies({ payload }) {
   try {
-    const response = yield call(getApi, 'v1/cryptocurrency/listings/latest');
+    const response = yield call(getCurrencyList, payload);
     yield put(getCurrenciesSuccess(response.data.data));
   } catch (error) {
     yield put(getCurrenciesError(error));

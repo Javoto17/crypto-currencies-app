@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import './Home.scss';
 
 import Nav from '../../components/Nav/Nav';
+import Search from '../../components/Search/Search';
 import CryptoCard from '../../components/CryptoCard/CryptoCard';
 
 
@@ -13,24 +16,36 @@ class Home extends Component {
     getCurrencies();
   }
 
-  renderCrypto = () => {
-    const { currencies } = this.props;
+  onChangeInput = (event) => {
+    const { filterCurrencies } = this.props;
 
-    if (!currencies) {
+    console.log(event.target.value);
+
+    const text = event.target.value;
+
+    filterCurrencies(text);
+  };
+
+  renderCrypto = () => {
+    const { filteredCurrencies } = this.props;
+
+    if (!filteredCurrencies) {
       return null;
     }
 
-    return currencies.map(el => {
+    return filteredCurrencies.map(el => {
       let imgSrc = null;
 
       try {
-        imgSrc = require(`../../../node_modules/cryptocurrency-icons/32/icon/${el.symbol.toLowerCase()}.png`);
+        imgSrc = require(`../../../node_modules/cryptocurrency-icons/128/icon/${el.symbol.toLowerCase()}.png`);
       }
       catch (err) {
         imgSrc = null;
       }
 
-      return (<CryptoCard symbol={el.symbol} key={el.symbol} imgSrc={imgSrc} />);
+      return (
+        <CryptoCard symbol={el.symbol} key={el.symbol} imgSrc={imgSrc} />
+      );
     });
   }
 
@@ -55,12 +70,12 @@ class Home extends Component {
                   </div>
                   <div className="column is-offset-12"></div>
                   <div className="column">
-                    <input className="input is-rounded custom-input" type="text" placeholder="Buscar aqui" />
+                    <Search onChange={this.onChangeInput} />
                   </div>
                 </div>
               </div>
               <div className="column is-half">
-                <div className="card">
+                {/* <div className="card">
                   <div>
                     <h6>
                       Crypto Currency
@@ -72,7 +87,7 @@ class Home extends Component {
                     </h2>
                   </div>
                   <div></div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -88,5 +103,19 @@ class Home extends Component {
     );
   }
 }
+
+
+Home.propTypes = {
+  filteredCurrencies: PropTypes.arrayOf(PropTypes.shape({
+    symbol: PropTypes.string,
+  })),
+  getCurrencies: PropTypes.func,
+  filterCurrencies: PropTypes.func,
+};
+
+Home.defaultProps = {
+  getCurrencies: PropTypes.func,
+  filterCurrencies: PropTypes.func,
+};
 
 export default Home;
