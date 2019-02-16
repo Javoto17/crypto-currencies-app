@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/fct.9b311bcf.png"
   },
   {
-    "revision": "bad6deccd60fe1b842f3",
-    "url": "/crypto-currencies-app/static/css/main.57eda65c.chunk.css"
+    "revision": "ca24379b9e1b9dbd2857",
+    "url": "/crypto-currencies-app/static/css/main.c75acdb6.chunk.css"
   },
   {
     "revision": "243e4791fffb223fbda0",
@@ -16,36 +16,36 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/js/2.aba55bd0.chunk.js"
   },
   {
-    "revision": "a24a4f274ea7f823eb9688922919965d",
-    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.a24a4f27.woff2"
-  },
-  {
     "revision": "71e7b170aa5d530caecbe5f749efb0d4",
     "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.71e7b170.eot"
   },
   {
-    "revision": "83b8d24e5d8c4545bf5509c2c04b4376",
-    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.83b8d24e.eot"
+    "revision": "a24a4f274ea7f823eb9688922919965d",
+    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.a24a4f27.woff2"
   },
   {
     "revision": "48fa4dc96042b459ec496857904b083b",
     "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.48fa4dc9.woff"
   },
   {
-    "revision": "ca5a1a7d55f3bf1c47b3b0b5a9e7edce",
-    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.ca5a1a7d.woff2"
+    "revision": "83b8d24e5d8c4545bf5509c2c04b4376",
+    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.83b8d24e.eot"
   },
   {
     "revision": "0e5f779972442a21c09f4f8672a90472",
     "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.0e5f7799.woff"
   },
   {
-    "revision": "fd7d35c4990d16416d117284f254c245",
-    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.fd7d35c4.ttf"
+    "revision": "ca5a1a7d55f3bf1c47b3b0b5a9e7edce",
+    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.ca5a1a7d.woff2"
   },
   {
     "revision": "a641df3eaee6bc38deb3b8542326580e",
     "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.a641df3e.ttf"
+  },
+  {
+    "revision": "fd7d35c4990d16416d117284f254c245",
+    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.fd7d35c4.ttf"
   },
   {
     "revision": "6121fa2f93960fa2b09643a2116661b6",
@@ -164,8 +164,8 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/evx.3bfebfc1.png"
   },
   {
-    "revision": "bad6deccd60fe1b842f3",
-    "url": "/crypto-currencies-app/static/js/main.bad6decc.chunk.js"
+    "revision": "ca24379b9e1b9dbd2857",
+    "url": "/crypto-currencies-app/static/js/main.ca24379b.chunk.js"
   },
   {
     "revision": "9979d4ded2d3cf3faa7543c394539009",
@@ -328,7 +328,7 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/zil.5e2f32aa.png"
   },
   {
-    "revision": "d757305f83f1d5c9124b615f9803e4b5",
+    "revision": "bce8bb5e4139102e8f3510c01163c928",
     "url": "/crypto-currencies-app/index.html"
   }
 ];
