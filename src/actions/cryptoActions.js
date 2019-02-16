@@ -7,10 +7,11 @@ axios.defaults.baseURL = URL;
 axios.defaults.headers.common['X-CMC_PRO_API_KEY'] = API_KEY;
 // axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
 
-export const getCurrencies = (currency = 'USD') => ({
+export const getCurrencies = (currency = 'USD', page = 1) => ({
   type: t.GET_CURRENCIES,
   payload: {
     currency,
+    page,
   }
 });
 
@@ -33,9 +34,9 @@ export const filterCurrencies = filter => ({
 });
 
 
-export const getCurrencyList = async ({ currency }) => {
+export const getCurrencyList = async ({ currency, page }) => {
   return axios({
-    url: `${URL}v1/cryptocurrency/listings/latest?convert=${currency}`,
+    url: `${URL}v1/cryptocurrency/listings/latest?convert=${currency}&start=${page}`,
     method: 'get',
     headers: {
       'X-CMC_PRO_API_KEY': API_KEY,
