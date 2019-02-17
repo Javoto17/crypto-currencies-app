@@ -34,6 +34,9 @@ class Home extends Component {
     }
 
     return filteredCurrencies.map(el => {
+      const { quote, name } = el;
+      const currency = quote[Object.keys(quote)[0]];
+
       let imgSrc = null;
 
       try {
@@ -44,7 +47,13 @@ class Home extends Component {
       }
 
       return (
-        <CryptoCard symbol={el.symbol} key={el.symbol} imgSrc={imgSrc} />
+        <CryptoCard
+          symbol={el.symbol}
+          key={el.symbol}
+          imgSrc={imgSrc}
+          currency={currency}
+          name={name}
+        />
       );
     });
   }
@@ -52,30 +61,31 @@ class Home extends Component {
   render() {
     return (
       <div className="container-parent">
-        <Nav />
-        <div className="hero-body">
-          <div className="container is-fluid">
-            <div className="columns">
-              <div className="column is-half">
-                <div>
-                  <div className="column">
-                    <h6 className="subtitle is-uppercas">
-                      Crypto Currency
-                    </h6>
-                  </div>
-                  <div className="column">
-                    <h2 className="title">
-                      Consulta aqui el valor actual de las criptomonedas
-                    </h2>
-                  </div>
-                  <div className="column is-offset-12"></div>
-                  <div className="column">
-                    <Search onChange={this.onChangeInput} />
+        <div className="search-section">
+          <Nav />
+          <div className="hero-body">
+            <div className="container is-fluid">
+              <div className="columns">
+                <div className="column is-half">
+                  <div>
+                    <div className="column">
+                      <h6 className="subtitle is-uppercas">
+                        Crypto Currency
+                      </h6>
+                    </div>
+                    <div className="column">
+                      <h2 className="title">
+                        Consulta aqui el valor actual de las criptomonedas
+                      </h2>
+                    </div>
+                    <div className="column is-offset-12"></div>
+                    <div className="column">
+                      <Search onChange={this.onChangeInput} />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="column is-half">
-                {/* <div className="card">
+                <div className="column is-half">
+                  {/* <div className="card">
                   <div>
                     <h6>
                       Crypto Currency
@@ -88,11 +98,13 @@ class Home extends Component {
                   </div>
                   <div></div>
                 </div> */}
+                </div>
               </div>
             </div>
           </div>
+
         </div>
-        <div className="hero-body">
+        <div className="hero-body cryptos-section">
           <div className="container is-fluid">
             <div className="columns is-multiline is-mobile">
               {this.renderCrypto()}

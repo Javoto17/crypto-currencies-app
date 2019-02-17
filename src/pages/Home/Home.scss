@@ -1,9 +1,7 @@
-.container-parent {
-  background: url('../../assets/images/background-home.png') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
+.search-section {
+  background-image: linear-gradient(to left, #8468f5, #eb74e7 99%, #ec74e7);
+  min-height: 50vh;
+  // background-image: linear-gradient(to left, #59c5e6, #58c5e4);
+  border-bottom-left-radius: 50% 15%;
+  border-bottom-right-radius: 50% 15%;
 }

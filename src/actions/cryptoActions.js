@@ -7,7 +7,7 @@ axios.defaults.baseURL = URL;
 axios.defaults.headers.common['X-CMC_PRO_API_KEY'] = API_KEY;
 // axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
 
-export const getCurrencies = (currency = 'USD', page = 1) => ({
+export const getCurrencies = (currency = 'EUR', page = 1) => ({
   type: t.GET_CURRENCIES,
   payload: {
     currency,

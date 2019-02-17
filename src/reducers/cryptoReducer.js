@@ -22,7 +22,7 @@ export default (state = initialState, action) => {
     return {
       ...state,
       filteredCurrencies: !!filter && !!state.currencies ? state.currencies.filter(el =>
-        el.symbol.includes(filter.toUpperCase()) || el.name.toLowerCase().includes(filter.toLowerCase())
+        el.symbol.includes(filter.toUpperCase()) || el.slug.includes(filter.toLowerCase())
       ) : state.currencies,
     };
   }

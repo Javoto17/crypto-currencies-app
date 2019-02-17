@@ -14,7 +14,7 @@ class App extends Component {
         <section className="hero">
           <Header />
           <Route exact path="/" component={Home} />
-          <Route path="/detailt/:id" component={Detail} />
+          <Route path="/detail/:id" component={Detail} />
         </section>
       </Router>
     );
