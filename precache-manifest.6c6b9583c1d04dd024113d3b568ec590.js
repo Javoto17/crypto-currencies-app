@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/fldc.9979d4de.png"
   },
   {
-    "revision": "be3cd46b599119fe777c",
-    "url": "/crypto-currencies-app/static/css/main.2c5c2393.chunk.css"
+    "revision": "14440f479ee97bc4ddbf",
+    "url": "/crypto-currencies-app/static/css/main.773fe6ec.chunk.css"
   },
   {
     "revision": "243e4791fffb223fbda0",
@@ -28,20 +28,20 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.48fa4dc9.woff"
   },
   {
-    "revision": "fd7d35c4990d16416d117284f254c245",
-    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.fd7d35c4.ttf"
-  },
-  {
-    "revision": "0e5f779972442a21c09f4f8672a90472",
-    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.0e5f7799.woff"
+    "revision": "83b8d24e5d8c4545bf5509c2c04b4376",
+    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.83b8d24e.eot"
   },
   {
     "revision": "ca5a1a7d55f3bf1c47b3b0b5a9e7edce",
     "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.ca5a1a7d.woff2"
   },
   {
-    "revision": "83b8d24e5d8c4545bf5509c2c04b4376",
-    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.83b8d24e.eot"
+    "revision": "fd7d35c4990d16416d117284f254c245",
+    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.fd7d35c4.ttf"
+  },
+  {
+    "revision": "0e5f779972442a21c09f4f8672a90472",
+    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.0e5f7799.woff"
   },
   {
     "revision": "a641df3eaee6bc38deb3b8542326580e",
@@ -164,8 +164,8 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/fct.9b311bcf.png"
   },
   {
-    "revision": "be3cd46b599119fe777c",
-    "url": "/crypto-currencies-app/static/js/main.be3cd46b.chunk.js"
+    "revision": "14440f479ee97bc4ddbf",
+    "url": "/crypto-currencies-app/static/js/main.14440f47.chunk.js"
   },
   {
     "revision": "3975e167f782a9e2112a2a4af9ab36bf",
@@ -324,7 +324,7 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/zil.5e2f32aa.png"
   },
   {
-    "revision": "1a2d86a4a8efaa471eaf70caf729b6ff",
+    "revision": "1cf18f4944aef4a1d62564d69ddaafce",
     "url": "/crypto-currencies-app/index.html"
   }
 ];
