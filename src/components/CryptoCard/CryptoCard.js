@@ -12,7 +12,7 @@ const CryptoCard = ({
   const [color, setColor] = useState();
 
   return (
-    <Link to={`/detail/${symbol}`} className="column is-one-third-desktop is-one-third-widescreen is-one-third-fullhd is-half-mobile is-one-third-tablet">
+    <Link to={`/detail/${name.toLowerCase()}`} className="column is-one-third-desktop is-one-third-widescreen is-one-third-fullhd is-half-mobile is-one-third-tablet">
       <div className="card-custom">
         <div>
           <div className="has-text-centered" style={{
@@ -25,11 +25,11 @@ const CryptoCard = ({
               </ColorExtractor>
             )}
           </div>
-          <div className="column is-full is-inline-flex">
+          <div className="column is-full is-inline-flex-desktop">
             <div className="column is-half has-text-centered">
               <p className="title is-5">{name}</p>
             </div>
-            <div className="column is-half">
+            <div className="column is-half has-text-centered">
               <p className="subtitle is-5">{parseFloat(currency.price).toFixed(5)} €</p>
             </div>
           </div>

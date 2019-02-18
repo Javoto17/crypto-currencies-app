@@ -9,7 +9,8 @@ export default (state = initialState, action) => {
   switch (action.type) {
   case t.GET_CURRENCIES:
     return {
-      currencies: [],
+      currencies: state.currencies,
+      filteredCurrencies: state.filteredCurrencies,
     };
   case t.GET_CURRENCIES_SUCCESS:
     return {
