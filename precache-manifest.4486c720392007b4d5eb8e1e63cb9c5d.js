@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/fldc.9979d4de.png"
   },
   {
-    "revision": "14440f479ee97bc4ddbf",
+    "revision": "f956b2d1894779485219",
     "url": "/crypto-currencies-app/static/css/main.773fe6ec.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.a24a4f27.woff2"
   },
   {
-    "revision": "71e7b170aa5d530caecbe5f749efb0d4",
-    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.71e7b170.eot"
-  },
-  {
     "revision": "48fa4dc96042b459ec496857904b083b",
     "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.48fa4dc9.woff"
   },
   {
     "revision": "83b8d24e5d8c4545bf5509c2c04b4376",
     "url": "/crypto-currencies-app/static/media/AvertaDemoPE-ExtraboldItalic.83b8d24e.eot"
+  },
+  {
+    "revision": "71e7b170aa5d530caecbe5f749efb0d4",
+    "url": "/crypto-currencies-app/static/media/AvertaDemoPE-Regular.71e7b170.eot"
   },
   {
     "revision": "ca5a1a7d55f3bf1c47b3b0b5a9e7edce",
@@ -164,8 +164,8 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/fct.9b311bcf.png"
   },
   {
-    "revision": "14440f479ee97bc4ddbf",
-    "url": "/crypto-currencies-app/static/js/main.14440f47.chunk.js"
+    "revision": "f956b2d1894779485219",
+    "url": "/crypto-currencies-app/static/js/main.f956b2d1.chunk.js"
   },
   {
     "revision": "3975e167f782a9e2112a2a4af9ab36bf",
@@ -324,7 +324,7 @@ self.__precacheManifest = [
     "url": "/crypto-currencies-app/static/media/zil.5e2f32aa.png"
   },
   {
-    "revision": "1cf18f4944aef4a1d62564d69ddaafce",
+    "revision": "709469798e7a01e7aa4a096020e5d315",
     "url": "/crypto-currencies-app/index.html"
   }
 ];
