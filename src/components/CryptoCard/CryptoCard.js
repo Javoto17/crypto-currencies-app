@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { ColorExtractor } from 'react-color-extractor';
 import PropTypes from 'prop-types';
 
-
 const CryptoCard = ({
   symbol,
   imgSrc,
@@ -18,22 +17,21 @@ const CryptoCard = ({
         <div>
           <div className="has-text-centered" style={{
             backgroundColor: color,
+            padding: 8,
           }}>
             {imgSrc && (
               <ColorExtractor getColors={colors => setColor(colors[0])}>
-                <img src={imgSrc} alt={symbol} />
+                <img src={imgSrc} alt={symbol} style={{ height: 75, width: 'auto' }} />
               </ColorExtractor>
             )}
           </div>
-          <div className="column is-inline-flex">
-            <p className="has-text-black">
-              <span className="">
-                {name}
-              </span>
-              <span className="">
-                {parseFloat(currency.price).toFixed(5)} €
-              </span>
-            </p>
+          <div className="column is-full is-inline-flex">
+            <div className="column is-half has-text-centered">
+              <p className="title is-5">{name}</p>
+            </div>
+            <div className="column is-half">
+              <p className="subtitle is-5">{parseFloat(currency.price).toFixed(5)} €</p>
+            </div>
           </div>
         </div>
       </div>
