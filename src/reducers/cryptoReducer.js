@@ -3,6 +3,10 @@ import * as t from '../constants/actionTypes';
 const initialState = {
   currencies: null,
   filteredCurrencies: null,
+  currencyDetail: {
+    historial: null,
+    metadata: null,
+  },
 };
 
 export default (state = initialState, action) => {
@@ -17,6 +21,17 @@ export default (state = initialState, action) => {
       currencies: action.payload,
       filteredCurrencies: action.payload,
     };
+  case t.FETCH_CURRENCY:
+    return {
+      currencyDetail: state.currencyDetail,
+    };
+  case t.FETCH_CURRENCY_SUCCESS: {
+    return {
+      currencyDetail: {
+        ...action.payload,
+      },
+    };
+  }
   case t.FILTER_CURRENCIES: {
     const { filter } = action.payload;
 

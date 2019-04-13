@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Header from '../components/Header/Header';
 import Home from './Home/HomeContainer';
-import Detail from './Detailt/Detail';
+import Detail from './Detail/DetailContainer';
 
 const URL_BASE = process.env.NODE_ENV === 'production' ? process.env.PUBLIC_URL : '/';
 
