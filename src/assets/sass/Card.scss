@@ -4,4 +4,8 @@
   box-shadow: -10px 10px 20px 0 rgba(30, 30, 30, 0.05);
   height: 100%;
   overflow: hidden;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
